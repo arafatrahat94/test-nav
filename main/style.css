@@ -77,10 +77,19 @@ body{
     height: 40px;
     margin: 0.2%;
 }
-.ex1{
-    background-image: linear-gradient(orangered, rgb(255, 255, 255));
-    width: 12%
-}
 .ex2{
-    width: 9%;
+    background-image: linear-gradient(orangered, rgb(255, 255, 255));
+    width: auto;
+}
+nav > ul > li > a{
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+}
+.text{
+    text-align: center;
+}
+.tr1{
+    margin-right: 6%;
 }
